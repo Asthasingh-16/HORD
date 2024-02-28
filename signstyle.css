@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    background-image: url(R.jpg);
+}
+
+header {
+    font-family: Josefin Sans;
+    font-weight: 500;
+    background-color: #02172c;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 45px;
+  }
+
+ nav{
+    font-family: Josefin Sans;
+    font-weight: 600;
+    height: 30px;
+    padding: 10px 0;
+    background-color: rgb(72, 71, 107);
+ }
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+    
+  }
+
+  a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
+  }
+
+.center-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+}
+
+
+    .signup-container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 400px; /* Adjust the width to your desired size */
+        max-width: 80%; /* Set a maximum width to ensure responsiveness */
+        margin: auto; /* Center the sign-up container horizontally */
+    }
+    
+
+
+.signup-container h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.signup-form input[type="button"] {
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #030d18;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup-form input[type="button"]:hover {
+    background-color: #072444;
+}
+
+@media only screen and (max-width: 768px) {
+    .signup-container {
+        width: 90%;
+    }
+}

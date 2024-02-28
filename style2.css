@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(212, 222, 241);
+   
+}
+
+
+
+header {
+    font-family: Josefin Sans;
+    font-weight: 500;
+    width: 100%;
+    background-color: #02172c;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 45px;
+  }
+
+  h1{
+    color: black;
+    font-family: Josefin Sans;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    font-family: Josefin Sans;
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #050e35;
+    color: antiquewhite;
+}
+.book-now {
+    background-color: #007bff;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.book-now:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        font-size: 30px;
+    
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    th, td {
+        font-size: 14px;
+    }
+    
+    .book-now {
+        padding: 4px 8px;
+        font-size: 14px;
+    }
+}
+footer{
+    margin-top: 200px;
+    background-color: #02172c;
+    color:#fff;
+    height: 250px;
+    font-size: 20px ;
+    text-align: center;
+    padding-top: 15px;
+    font-family:Josefin Sans ;
+    
+  }
+  
+  .footer_header{
+    padding-top: 50px;
+    line-height: 40px;
+  }
+  
+  footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .link_header{
+    font-weight: 900;
+  }
+
+  .footer_header{
+    background-color: #02172c;
+  }
+  a{
+    background-color: #02172c;
+    text-decoration: none;
+    color: white;
+    
+  }
+  span{
+    background-color: #02172c;
+    color: white;
+  }
+
+  @media screen and (max-width: 768px) {
+    header {
+        font-size: 30px;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    th, td {
+        font-size: 14px;
+    }
+    
+    .book-now {
+        padding: 4px 8px;
+        font-size: 14px;
+    }
+
+    footer {
+      height: auto;
+        font-size: 14px;
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+    .footer_header {
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 576px){
+  footer{
+    width: 100%;
+    height: 100%
+    ;
+    position: fixed;
+    bottom: 0px;
+  
+    
+  }
+  header{
+    width: 100%;
+  }
+
+}

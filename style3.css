@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(212, 222, 241);
+   
+}
+
+
+
+header {
+    font-family: Josefin Sans;
+    font-weight: 500;
+    width: 100%;
+    background-color: #02172c;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 45px;
+  }
+
+  .acc_box{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    height: 500px;
+    width: 500px;
+    margin-left: 420px;
+    margin-top: 55px;
+
+  }
+
+  #acc_pic{
+    height: 90px;
+    width: 90px;
+    position: inherit;
+    margin-left: 205px;
+    margin-top: 5px;
+    background-color: antiquewhite;
+    background-image: url(Untitled-7-1024.webp);
+    background-size: cover;
+  }
+
+  #acc_details{
+    height: 300px;
+    margin: 30px 30px;
+    background-color:antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .button{
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 35px;
+    font-weight: 510;
+    font-family: Josefin Sans;
+    height: 45px;
+    width: 150px;
+    border-radius: 15px;
+
+  }
+
+  .button:hover{
+    background-color: #02172c;
+    color: antiquewhite;
+    cursor: pointer;
+  }
+  footer{
+    background-color: #02172c;
+    color:#fff;
+    height: 250px;
+    font-size: 20px ;
+    text-align: center;
+    padding-top: 15px;
+    font-family:Josefin Sans ;
+  }
+  
+  .footer_header{
+    padding-top: 50px;
+    line-height: 40px;
+  }
+  
+  footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .link_header{
+    font-weight: 900;
+  }
+  
+  /* Your existing CSS styles */
+  
+  /* Media query for screens between 576px and 768px */
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    header {
+        font-size: 30px;
+    }
+  
+  
+    .hero {
+        padding: 100px 0 0 20px;
+        font-size: 20px;
+    }
+    footer {
+        font-size: 16px;
+    }
+    .footer_header {
+        line-height: 30px;
+    }
+  }
+  

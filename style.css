@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+header {
+    font-family: Josefin Sans;
+    font-weight: 500;
+    background-color: #02172c;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 45px;
+  }
+
+ nav{
+    font-family: Josefin Sans;
+    font-weight: 600;
+    height: 30px;
+    padding: 10px 0;
+    background-color: rgb(72, 71, 107);
+ }
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+    
+  }
+
+  a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
+  }
+
+  .container{
+    background-image: url(haseesh-rahithya-rKldI0tJWmg-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    
+    background-position: center;
+  }
+
+  .hero{
+    padding: 200px 0 0 80px;
+    /* padding-left: 80px;
+    padding-top: 200px; */
+    font-size: 25px;
+    
+  }
+
+  #Hero_title{
+        color: wheat;
+        font-size: 50px;
+        font-weight: bolder;
+        font-family: Josefin Sans;
+        font-weight: 700;
+        
+  }
+
+  #Hero_line{
+    color: antiquewhite;
+   
+    font-family: Josefin Sans;
+    font-weight:bold;
+  }
+
+  #Book_button{
+    color: bisque;
+    font-family: Josefin Sans;
+    font-weight: 500;
+  }
+
+  #Book_button {
+    display: inline-block;
+    background-color: #02172c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color ;
+  }
+  
+  #Book_button:hover {
+    background-color: #01070e; 
+  }
+  
+ a:hover{
+    color: rgb(168, 179, 226);
+ }
+
+
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  header {
+      font-size: 30px;
+ 
+  }
+  
+  nav {
+      height: auto;
+  }
+  
+  ul {
+      flex-direction: column;
+      margin-top: 10px;
+  }
+  
+  a {
+      font-size: 16px;
+  }
+  
+  .hero {
+      padding: 100px 0 0 20px;
+      font-size: 20px;
+  }
+
+  .container{
+      height: 100vh;
+      background-size: cover; 
+  }
+
+
+
+}
+
+footer{
+  background-color: #02172c;
+  color:#fff;
+  height: 250px;
+  font-size: 20px ;
+  text-align: center;
+  padding-top: 15px;
+  font-family:Josefin Sans ;
+}
+
+.footer_header{
+  padding-top: 50px;
+  line-height: 40px;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.link_header{
+  font-weight: 900;
+}
+
+@media screen and (max-width: 576px) {
+  header {
+      font-size: 25px;
+  }
+
+  footer{
+    font-size: 15px;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .footer_header{
+    font-size: 10px;
+    line-height: 25px;
+  }
+  span{
+    font-size: 10px;
+  }
+  a{
+    font-size: 10px;
+  }
+
+  .hero {
+      padding: 80px 0 0 20px;
+      font-size: 18px;
+  }
+
+  
+}
+
+@media screen and (max-width: 576px) {
+  footer {
+      flex-direction: column;
+      height: auto;
+      padding-bottom: 20px;
+  }
+
+  .footer_header {
+      padding-top: 20px;
+      line-height: 30px;
+  }
+
+  .footer_header a {
+      margin-bottom: 10px;
+  }
+}
